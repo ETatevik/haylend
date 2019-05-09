@@ -1,0 +1,70 @@
+#dashboard2{
+    background-color: #F5F6F8;
+    padding: 2rem;
+}
+.box{
+    background-color: #fff;
+    padding: 1rem;
+    border-left: .2rem solid #0D73BC;
+    border-radius: .2rem;
+    box-shadow: 0 1px 1.5px rgba(0, 0, 0, .2);
+}
+.box h5{
+    font-size: 1.2rem
+}
+.total-diagrams{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.diagrams{
+    background-color: white;
+    border-radius: .2rem;
+    color: #4C5862;
+    padding: 1rem 1.5rem
+}
+.diagrams h5{
+    padding: 1rem;
+    border-bottom: 1px solid #EBEFF2;
+    color: #192A3E
+}
+
+.data{
+    padding: 1rem;
+    font-size: .8rem;
+}
+
+.earnings{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.flags{
+    width: 18px;
+    height: 14px;
+    margin-right: .5rem;
+}
+.table{
+    overflow: hidden;
+}
+.table thead tr{
+    background-color: #0D73BC;
+    color: white;
+}
+.table tbody{
+    background-color: white;
+}
+
+.table tbody td{
+    color: #707683
+}
+
+.canvasjs-chart-credit{
+	display: none;
+}
+
+#chartContainer,
+#chartContainer1,
+#chartContainer2,
+#chartContainer3,
+#chartContainer4{
+    height: 300px;
+}

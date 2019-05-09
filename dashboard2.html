@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashborad</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dashboard2.css">
+</head>
+<body>
+    
+    <section id="dashboard2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row dash-header">
+                        <div class="col">
+                            <div class="box text-center">
+                                <h5>Total Sarves</h5>
+                                <span>233 000</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="box text-center">
+                                <h5>Average check</h5>
+                                <span>25.000$</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="box text-center">
+                                <h5>Ave. Interest</h5>
+                                <span>4.2%</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="box text-center">
+                                <h5>Savers Country</h5>
+                                <span>40</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="box text-center">
+                                <h5>LOL</h5>
+                                <span>742 Day</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 total-diagrams">
+                    <div class="row align-items-stretch">
+                        <div class="col-6">
+                            <div class="diagrams">
+                                <h5>Totale value</h5>
+                                <div id="chartContainer"></div>
+                                <div class="data text-center pb-0 mb-0"></div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="diagrams">
+                                <h5>Total value by country</h5>
+                                <div id="chartContainer2" ></div>  
+                                <div class="data text-center pb-0 mb-0" style="color:transparent"></div>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="diagrams">
+                                <h5>Number of Users by Country</h5>
+                                <div id="chartContainer3"></div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="diagrams">
+                                <h5>Client preferance by products</h5>
+                                <div id="chartContainer4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 earnings">
+                    <h4>Earnings By Items</h4>
+                    <table class="table table-bordered rounded text-center">
+                        <thead>
+                          <tr>
+                            <th scope="col">Product name</th>
+                            <th scope="col">Interest rate</th>
+                            <th scope="col">Amount</th>
+                            <th scope="col">Currency</th>
+                            <th scope="col">Term</th>
+                            <th scope="col">Users</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">
+                                <img src="img/Flag_of_Armenia.svg" alt="" class="flags">
+                                User Name
+                            </th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                                <img src="img/Flag_of_Armenia.svg" alt="" class="flags">
+                                Bank Name
+                            </th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                                <img src="img/Flag_of_Armenia.svg" alt="" class="flags">
+                                Bank Name
+                            </th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                                <img src="img/Flag_of_Armenia.svg" alt="" class="flags">
+                                Bank Name
+                            </th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                                <img src="img/Flag_of_Armenia.svg" alt="" class="flags">
+                                Bank Name
+                            </th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/canvasjs.min.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
